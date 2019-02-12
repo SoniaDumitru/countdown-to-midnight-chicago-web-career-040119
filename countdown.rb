@@ -1,17 +1,24 @@
-#write your code here
-  def countdown(number)
-  while number > 0
-    puts "#{number} SECONDS(S)!"
-    number -= 1
-  end
-  return "HAPPY NEW YEAR!"
+
+
+43  countdown.rb
+@@ -1,4 +1,45 @@
+#write your code here	#write your code here
+
+
+ def countdown	def countdown(x)
+while x > 0
+  puts "#{x} SECOND(S)!"
+  sleep 1
+  x -= 1
+end	end
+return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(number)
-  while number > 0
-    puts "#{number} SECOND(S)!"
-    sleep 1
-    number -= 1
-  end
-  return "HAPPY NEW YEAR!"
+ def countdown_with_sleep(x)
+  while x > 0
+  puts "#{x} SECOND(S)!"
+  sleep 1
+  x -= 1
+end
+return "HAPPY NEW YEAR!"
 end
