@@ -1,10 +1,3 @@
-
-
-43  countdown.rb
-@@ -1,4 +1,45 @@
-#write your code here	#write your code here
-
-
  def countdown	def countdown(x)
 while x > 0
   puts "#{x} SECOND(S)!"
